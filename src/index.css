@@ -11,3 +11,107 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.logo{
+  /* color: aqua;
+   */
+   display: flex;
+   padding-left: 10rem;
+   position: relative;
+   bottom: 1.8cm;
+   left: 10cm;
+   width: 5cm;
+   position:relative ;
+}
+
+
+
+.question{
+  position:relative;
+  bottom: 6.7rem;
+  display: flex;
+  left:48rem;
+
+
+}
+
+h4{
+  position:relative;
+  left:30rem;
+  text-align: left;
+}
+
+p{
+  position:relative;
+  left:30rem;
+  text-align: left;
+}
+
+.formdiv{
+  position:relative;
+  bottom: 6rem;
+}
+
+.form{
+  position: relative;
+  text-align: left;
+  left:30rem;
+}
+
+label{
+  
+  margin-top: 4.5px;
+}
+
+input{
+  margin-bottom: 6px;
+  border-radius: 5px;
+}
+
+.space{
+  margin-top: 7px;
+}
+#mobileNumber{
+  margin-top: 2px;;
+  width: 330px;
+  height:35px;
+  padding-left: 4px;
+  background-color:rgb(249, 246, 246);
+  border-color: transparent;
+}
+
+#yourName{
+  margin-top: 2px;;
+  width: 330px;
+  height:35px;
+  padding-left: 4px;
+  background-color:rgb(249, 246, 246);
+  border-color: transparent;
+}
+
+select{
+  width:330;
+  height:35px;
+  width: 330px;
+  padding-left:4px;
+  background-color:rgb(249, 246, 246);
+  border-color: transparent;
+}
+*
+.row{
+  width:
+}
+
+/* .column{
+  float: left;
+}
+x
+.left{
+  width:10%;
+}
+.right{
+  width:33%;
+}
+.middle{
+  width: 33%;
+} */

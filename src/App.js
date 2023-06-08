@@ -8,7 +8,7 @@ import './App.css';
 function App() {
   return (
     <div className="app">
-      <img src={image1}></img>
+      <img className="logo" src={image1}></img>
       <div className='head'>
       <p className="nameste">Nameste,</p>
       <h4>Fill in your details to pay Middha Dental Clinic</h4>
@@ -20,12 +20,14 @@ function App() {
         <label for="yourName">Your Name</label><br/>
         <input type="text" id="yourName" name="yourName" placeholder="Enter your full name"/><br/>
         <label for="mobileNumber">Who are you applyfing for?</label><br/>
-        <label class="radio-inline">
+        <div>
+        <label class="radio">
         <input type="radio" name="option" value="myself"/> Myself
         </label>
-        <label class="radio-inline">
+        <label class="radio">
         <input type="radio" name="option" value="familyMember"/> Family Member
         </label>
+        </div>
         <select name="procedure" id="procedure">
         <option value="Select a procedure">Select a procedure</option>
         <option value="Dental fillings">Dental fillings</option>
@@ -41,7 +43,7 @@ function App() {
         </div>
         </div>
         <div className='button'>
-        <img src={image2}></img>
+        <img className='button' src={image2}></img>
         </div>
     </div>
   )

@@ -2,21 +2,64 @@
  display:flex;
  align-items: center;
  flex-direction: column;
+ width:29%;
+ margin-left: 40%;
+ 
+}
+.head{
+  width:100%;
+}
+
+.logo,.button{
+  width:100%;
 }
 
 .form{
   display:flex;
   flex-direction: column;
-  position:relative;
-  right:1.6vw;
+  width:100%;
+ 
 }
 
-input{
-  border-radius: 5px;
-  border:none;
+#yourName{
+ 
+    width:100%;
+    height:5vh;
+
+  
+}
+
+#mobileNumber{
+  width:100%;
+  height:5vh;
 }
 
 .button{
   position:relative;
   top:2vw;
+}
+
+#procedure{
+  
+  width:100%;
+  height:5vh;
+  margin:2vh;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For screens with a maximum width of 768px */
+@media only screen and (max-width: 768px) {
+  .app {
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+
+/* For screens with a maximum width of 480px */
+@media only screen and (max-width: 480px) {
+  .app {
+    width: 90%;
+    margin-left: 5%;
+  }
 }

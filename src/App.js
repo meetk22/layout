@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="app">
       <img className="logo" src={image1}></img>
+      <div className='layout'>
       <div className='head'>
       <p className="nameste">Nameste,</p>
       <h4>Fill in your details to pay Middha Dental Clinic</h4>
@@ -42,9 +43,10 @@ function App() {
         <label for="agree"> I agree to the privacy and T&C of SavelN</label><br></br>
         </div>
         </div>
-        <div className='button'>
-        <img className='button' src={image2}></img>
         </div>
+
+        <img className='button' src={image2}></img>
+        
     </div>
   )
 }

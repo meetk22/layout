@@ -6,6 +6,9 @@
  margin-left: 40%;
  
 }
+.layout{
+  margin:0 3%;
+}
 .head{
   width:100%;
 }
@@ -23,15 +26,18 @@
 
 #yourName{
  
-    width:100%;
+    width:90%;
     height:5vh;
-
-  
+    border: none;
+    background-color: rgb(237, 234, 234);
 }
 
 #mobileNumber{
-  width:100%;
+  width:90%;
   height:5vh;
+  border:none;
+  border-radius: 2px;
+  background-color: rgb(237, 234, 234);
 }
 
 .button{
@@ -41,10 +47,13 @@
 
 #procedure{
   
-  width:100%;
+  width:90%;
   height:5vh;
-  margin:2vh;
+  margin:4%;
+  border: none;
+  background-color: rgb(237, 234, 234);
 }
+
 
 /* Media Queries for Responsiveness */
 

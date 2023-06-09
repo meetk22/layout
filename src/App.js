@@ -1,14 +1,17 @@
 import React from 'react';
 import './App.css'
 import image1 from './Rectangle 4176-overlay-overlay.jpg';
-import image2 from './Group 2610147.png'
+import image2 from './Group 2610147.png';
+import image4 from './security1 1.png';
+import image5 from './security2 1.png';
+import image6 from './lock-FILL1-wght400-GRAD0-opsz48.jpg'
 
 import './App.css';
 
 function App() {
   return (
     <div className="app">
-      <img className="logo" src={image1}></img>
+      <img className="logo" src={image1} alt='logo'></img>
       <div className='layout'>
       <div className='head'>
       <p className="nameste">Nameste,</p>
@@ -38,14 +41,24 @@ function App() {
         <option value="Teeth extraction">Teeth extraction</option>
         <option value="Dental implants">Dental implants</option>
         </select>
+
         <div  >
         <input type="checkbox" id="agree" name="agree" value="agree"/>
         <label for="agree"> I agree to the privacy and T&C of SavelN</label><br></br>
         </div>
+
         </div>
         </div>
 
-        <img className='button' src={image2}></img>
+        <img className='button' src={image2} alt='continue'></img>
+
+        
+        <div className='security'>
+        
+        <img src={image6} alt='security'></img>
+        <img src={image4} alt='security'></img>
+        <img src={image5} alt='security'></img>
+        </div>
         
     </div>
   )

@@ -3,14 +3,16 @@
  align-items: center;
  flex-direction: column;
  width:29%;
- margin-left: 40%;
+ margin-left: 38%;
+ height:auto;
  
 }
 .layout{
-  margin:0 3%;
+  margin:0 2%;
 }
 .head{
   width:100%;
+
 }
 
 .logo,.button{
@@ -21,28 +23,36 @@
   display:flex;
   flex-direction: column;
   width:100%;
+
  
 }
 
 #yourName{
  
-    width:90%;
+    width: 100%;
     height:5vh;
     border: none;
     background-color: rgb(237, 234, 234);
+    border-radius: 4px;
 }
 
 #mobileNumber{
   width:90%;
   height:5vh;
   border:none;
-  border-radius: 2px;
-  background-color: rgb(237, 234, 234);
+  border-radius: 4px;
+  background-color:  rgb(237, 234, 234);
+  background-image:url(./Group\ 2610126\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: 2vw;
+  background-position: left;
+  padding-left: 2.5vw;
 }
 
 .button{
   position:relative;
   top:2vw;
+  width:85%;
 }
 
 #procedure{
@@ -52,8 +62,12 @@
   margin:4%;
   border: none;
   background-color: rgb(237, 234, 234);
+  border-radius: 4px;
 }
 
+.security{
+  margin-top: 30%;
+}
 
 /* Media Queries for Responsiveness */
 

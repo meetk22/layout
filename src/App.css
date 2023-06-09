@@ -57,9 +57,9 @@
 
 #procedure{
   
-  width:90%;
+  width:100%;
   height:5vh;
-  margin:4%;
+  margin:4% 0%;
   border: none;
   background-color: rgb(237, 234, 234);
   border-radius: 4px;
